@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pexels-todd-trapani-488382-1382102.jpg" type="image/icon type">
+    <title> Farmers Census Regissteration</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="body2">
+    <div class="wrapper">
+        <div class="nav">
+            <nav>
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/index.html#contacts">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>       
+    <h2>Trans-nzoia Farmers Census</h2>
+    <small>Be part of our farmers' community</small>
+    <form id="register" action="" method="POST">
+        <div class="input-box">
+            <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+        </div>
+        <div class="input-box">
+            <input type="number" name="id_number" id="id_number" placeholder="Enter your I.D Number" >
+        </div>
+        <div class="input-box">
+            <!-- <label for="constituency">Enter your Constituency</label> -->
+            <select name="constituency" id="constituency">
+                <option value="onst" class="onst">Enter Your Constituency</option>
+                <option value="Kwanza">Kwanza</option>
+                <option value="Saboti">Saboti</option>
+                <option value="Cherangany">Cherangany</option>
+                <option value="Kiminini">Kiminini</option>
+                <option value="Endebess">Endebess</option>
+            </select>
+        </div>
+            <div class="policy">
+                <input type="checkbox" placeholder="checkbox">
+                <h3>I acccept all terms & condition</h3>
+            </div>
+            <div class="input-box button">
+            <input type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
